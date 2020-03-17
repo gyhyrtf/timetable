@@ -1,0 +1,21 @@
+   
+body {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    color: rgb(2, 1, 5);
+  }
+  
+  body::after {
+    content: "";
+    background: url("bg.jpg");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+  
