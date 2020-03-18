@@ -18,4 +18,12 @@ body {
     position: fixed;
     z-index: -1;   
   }
-  
+  dl {
+    border-bottom:4px solid;
+  }
+  dt {
+    border-bottom:2px solid;
+  }
+.none {
+  border: none;
+}
