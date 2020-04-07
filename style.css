@@ -27,3 +27,26 @@ body {
 .none {
   border: none;
 }
+.cell {
+  padding: 5px 9px;
+  border: 1px solid rgb(3, 2, 2);
+  display: table-cell;
+}
+.table {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+
+.col-1 {
+  width: 100px;
+}
+.col-2 {
+  width: 100px;
+}
+.cell-n {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding: 5px 9px;
+  display: table-cell;
+}
