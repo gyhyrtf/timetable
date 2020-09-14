@@ -1,13 +1,13 @@
    
 body {
-    width: 200px;
+    width: 300px;
     height: 200px;
     display: block;
     position: relative;
     color: rgb(2, 1, 5);
   }
   
-  body::after {
+  body:after {
     content: "";
     background: url("bg.jpg");
     opacity: 0.3;
@@ -43,4 +43,8 @@ body {
   border-bottom: 2px solid rgb(0, 0, 0);
   padding: 5px 9px;
   display: table-cell;
+}
+.border-warning {
+  border-left: solid #ba1419;
+  border-width: 5px ;
 }
